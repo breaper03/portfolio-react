@@ -8,7 +8,7 @@ const About = () => {
           <h1 className='font-semibold text-[32px] text-white mb-3'> 
             Gabriel is a <span className='text-[#c778dd]'>web designer</span> and <span className='text-[#c778dd]'>front-end developer</span> 
           </h1>
-          <p className="text-[#ABB2BF] my-6">He crafts responsive websites where technologies meet creeativity</p>
+          <p className="text-[#ABB2BF] my-6">He crafts responsive websites where technologies meet creativity</p>
           <button className='text-white font-medium py-2 px-4 border duration-200 border-[#c778dd] hover:bg-[#c778dd33]'>Contact me!</button>
         </div>
         <div className="mx-auto">

@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       title: 'Other',
-      languages: ['HTML', 'CSS/SCSS', 'TailWind', 'MUI', 'Material Design',]
+      languages: ['HTML', 'CSS/SCSS', 'TailWind', 'MUI', 'Material Design']
     },
   ]
 
