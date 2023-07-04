@@ -1,7 +1,7 @@
 import './App.css'
 import { Navbar } from './Components/Navbar/Navbar'
+import { About } from './Components/first_section_about/about'
 import { Experience } from './Components/experience_section/Experience'
-import { About }  from './Components/first_section_about/about'
 import { Projects } from './Components/projects_section/Projects'
 import { Skills } from './Components/skills_section/Skills'
 function App() {
