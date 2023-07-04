@@ -1,4 +1,4 @@
-import Shapes from '../../assets/shapes.svg'
+import Shapes from '../../assets/Shapes.svg'
 const Skills = () => {
 
   const skills = [
