@@ -1,7 +1,7 @@
 import { Project_card } from "../project_card/Project_card"
 
 //
-export const Projects = () => {
+const Projects = () => {
 
   //date 
   const projects = [
@@ -62,3 +62,5 @@ export const Projects = () => {
     </>
   )
 }
+
+export default Projects

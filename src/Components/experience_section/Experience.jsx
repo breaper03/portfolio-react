@@ -1,5 +1,5 @@
 // import Shapes from '../../assets/Shapes.svg'
-export const Experience = () => {
+const Experience = () => {
 
   const experience = [
     {
@@ -14,12 +14,12 @@ export const Experience = () => {
       time: 'from March 15, 2022 - to June 13, 2023',
       desc: ' In this position I worked long hours at night, while I was in charge of inventorying, repairing and handling customer requests, which could be about reconditioning networks, zones and/or equipment for a new service, as well as the management of the network infrastructure of the other services.' 
     },
-    {
-      empresa: 'Movao Shop',
-      puesto: 'IT Support Analyst',
-      time: 'from March 15, 2022 - to June 13, 2023',
-      desc: ' In this position I worked long hours at night, while I was in charge of inventorying, repairing and handling customer requests, which could be about reconditioning networks, zones and/or equipment for a new service, as well as the management of the network infrastructure of the other services.' 
-    }
+    // {
+    //   empresa: 'Movao Shop',
+    //   puesto: 'IT Support Analyst',
+    //   time: 'from March 15, 2022 - to June 13, 2023',
+    //   desc: ' In this position I worked long hours at night, while I was in charge of inventorying, repairing and handling customer requests, which could be about reconditioning networks, zones and/or equipment for a new service, as well as the management of the network infrastructure of the other services.' 
+    // }
   ]
 
   return (
@@ -63,3 +63,5 @@ export const Experience = () => {
     </>
   )
 }
+
+export default Experience

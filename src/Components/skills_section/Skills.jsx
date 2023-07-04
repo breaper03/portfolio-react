@@ -1,5 +1,5 @@
 import Shapes from '../../assets/shapes.svg'
-export const Skills = () => {
+const Skills = () => {
 
   const skills = [
     {
@@ -66,3 +66,5 @@ export const Skills = () => {
     </>
   );
 }
+
+export default Skills

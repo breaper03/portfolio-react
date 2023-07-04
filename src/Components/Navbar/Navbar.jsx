@@ -1,7 +1,7 @@
 import Logo from "../../assets/Logo.svg"
 import Close from "../../assets/Close.svg"
 import { useState } from "react"
-export const Navbar = () => {
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -54,3 +54,5 @@ export const Navbar = () => {
       </div>
   )
 }
+
+export default Navbar

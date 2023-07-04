@@ -1,6 +1,6 @@
 import Man from '../../assets/Man.svg'
 import Quote from '../../assets/Quote.svg'
-export const About = () => {
+const About = () => {
   return (
     <>
       <div className='px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap'>
@@ -27,3 +27,5 @@ export const About = () => {
     </>
   )
 }
+
+export default About
