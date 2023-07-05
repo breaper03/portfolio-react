@@ -6,7 +6,7 @@ export const Project_card = ({img, langs, title, disc, link, code}) => {
       <div className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#abb2fb]">
         {/* img */}
         <div className="">
-          <img className="w-full h-64" src={img} alt="" />
+          <img className="w-full h-64 object-cover" src={img} alt="" />
         </div>
         {/* skills */}
         <div className="flex gap-2 flex-wrap p-2 border-y border-[#abb2fb]">

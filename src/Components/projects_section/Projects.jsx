@@ -1,5 +1,5 @@
 import { Project_card } from "../project_card/Project_card"
-import MoneyManagerApp from '../../assets/MoneyManagerApp.png'
+import MoneyManagerApp from '../../assets/MoneyManagerApp.svg'
 //
 const Projects = () => {
 
@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
         </div>
         {/* BOTTOM */}
-        <div className="flex flex-wrap justify-between gap-4 my-12">
+        <div className="flex flex-wrap justify-between gap-4 my-12" key={Math.random()}>
           {projects.map(({img, langs, title, disc, link, code}) => {
             return (
               <>
