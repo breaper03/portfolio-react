@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 //
-export const Project_card = ({img, langs, title, disc, link}) => {
+export const Project_card = ({img, langs, title, disc, link, code}) => {
   return (
     <>
       <div className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#abb2fb]">
@@ -20,8 +20,11 @@ export const Project_card = ({img, langs, title, disc, link}) => {
           <p className="py-4 text-[#abb2fb]">{disc}</p>
           {/* btns */}
           <div className="">
-            <button className="py-2 px-4 text-white border border-[#c778dd] hover:bg-[#c778dd33]">
+            <button className="py-2 px-4 mr-2 text-white border border-[#c778dd] hover:bg-[#c778dd33]">
               <a href={link}>{"Live <->"}</a>
+            </button>
+            <button className="py-2 px-4 text-white border border-[#c778dd] hover:bg-[#c778dd33]">
+              <a href={code}>{"Code <->"}</a>
             </button>
           </div>
         </div>

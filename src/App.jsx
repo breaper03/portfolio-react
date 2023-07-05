@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[#282c33]'>
+      <div className='bg-[#282c33] scroll'>
         <Navbar />
         <About />
         <Projects />

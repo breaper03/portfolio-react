@@ -1,30 +1,17 @@
 import { Project_card } from "../project_card/Project_card"
-
+import MoneyManagerApp from '../../assets/MoneyManagerApp.png'
 //
 const Projects = () => {
 
   //date 
   const projects = [
     {
-      img: "https://ece.engin.umich.edu/wp-content/uploads/sites/2/2022/02/JoyofCoding-featured.jpg",
-      langs: ["html", 'css', 'javascript'],
+      img: MoneyManagerApp,
+      langs: ["HTML", 'CSS', 'Javascript', 'React'],
       title: "MoneyManager",
       disc: "Minecraft Servers Hosting",
-      link: 'https://react-money-manager.vercel.app/'
-    },
-    {
-      img: "https://openaimaster.com/wp-content/uploads/2023/04/Can-Chat-GPT-be-Detected-for-Coding-950x500.jpg?is-pending-load=1",
-      langs: ["html", 'css', 'javascript', "Node.js"],
-      title: "Protect X",
-      disc: "Discord AntiCrash Bot",
-      link: 'https://react-money-manager.vercel.app/'
-    },
-    {
-      img: "https://www.searchenginejournal.com/wp-content/uploads/2023/04/google-bard-coding-644282f27c8da-sej-760x400.webp",
-      langs: ["html", 'css', 'javascript', 'Node.js', 'Python'],
-      title: "Kahoot Answers Viewer",
-      disc: "Get answers to your kahoot quiz",
-      link: 'https://react-money-manager.vercel.app/'
+      link: 'https://react-money-manager.vercel.app/',
+      code: 'https://github.com/breaper03/reactMoneyManager'
     },
   ]
 
@@ -50,10 +37,10 @@ const Projects = () => {
         </div>
         {/* BOTTOM */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
-          {projects.map(({img, langs, title, disc, link}) => {
+          {projects.map(({img, langs, title, disc, link, code}) => {
             return (
               <>
-                <Project_card img={img} langs={langs} title={title} disc={disc} link={link}/>
+                <Project_card img={img} langs={langs} title={title} disc={disc} link={link} code={code}/>
               </>
             )
           })}
