@@ -1,10 +1,12 @@
 import Discord from '../../assets/Discord.svg'
 import Email from '../../assets/Email.svg'
+import Linkedin from '../../assets/Linkedin.svg'
+import Github from '../../assets/Github.svg'
 
 const Contact = () => {
   return (
     <>
-      <div  data-aos = "fade-up" data-aos-delay="1000" className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div  data-aos = "fade-up" data-aos-delay="1000" className="px-5 max-w-[1560px] mx-auto mt-10 py-10">
         {/* top */}
         <div className="">
           {/* header */}
@@ -18,7 +20,7 @@ const Contact = () => {
           </div>
         </div>
         {/* bottom */}
-        <div className=" flex items-start flex-wrap gap-10 justify-between">
+        <div className=" flex items-center flex-wrap gap-10 justify-between">
           {/* left */}
           <div className="left w-full md:w-1/2">
             <p className=" text-[#ABB2BF]">
@@ -34,14 +36,22 @@ const Contact = () => {
                 Message me here
               </h2>
               {/* get in touch */}
-              <div className="">
+              <div className="mx-auto flex flex-col items-start justify-center ">
                 {/* links */}
-                <div className="flex gap-1 items-center">
+                <div className="flex gap-1 justify-around items-center">
                   <img src={Discord} alt="" />
-                  <span className="text-[#ABB2BF]">!Elias#3519</span>
+                  <span className="text-[#ABB2BF]">breaper03#1618</span>
                 </div>
-                <div className="flex gap-1 items-center">
+                <div className="flex gap-1 justify-around items-center">
                   <img src={Email} alt="" />
+                  <span className="text-[#ABB2BF]"> gabrielpaez2019@gmail.com</span>
+                </div>
+                <div className="flex gap-1 justify-around items-center">
+                  <img src={Linkedin} alt="" />
+                  <a href='https://www.linkedin.com/in/gabriel-paez-1a38a7233/' className="text-[#ABB2BF] decoration-transparent">www.linkedin.com/in/gabriel-paez-1a38a7233/</a>
+                </div>
+                <div className="flex gap-1 justify-around items-center">
+                  <img src={Github} alt="" />
                   <span className="text-[#ABB2BF]">gabrielpaez2019@gmail.com</span>
                 </div>
               </div>
